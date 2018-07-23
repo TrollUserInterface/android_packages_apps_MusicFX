@@ -13,8 +13,8 @@ LOCAL_RESOURCE_DIR = \
         frameworks/support/design/res
 
 # Viper Color Engine
-$(warning *** Including Viper Color Engine ***)
-LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+$(warning *** Including EcemUI Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/ecem/colorengine/$(LOCAL_PATH)/res
 
 LOCAL_AAPT_FLAGS := \
         --auto-add-overlay \
